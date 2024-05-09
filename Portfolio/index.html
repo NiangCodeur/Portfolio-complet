@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Port<span>folio</span></a>
+      <i class="bx bx-menu" id="menu-icon" class="icons"></i>
+      <div class="navbar">
+        <ul>
+          <a href="#home" class="active">Acceuil</a>
+          <a href="#about">A propos</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </div>
+    </header>
+
+    <!-------header-text------->
+    <div class="header-content" id="home">
+      <div class="text">
+        <p>Hello C'est <span>Mamadou</span></p>
+        <h1>Je Suis Sénégalais</h1>
+        <h2>et Je Suis <span class="effet-text"></span></h2>
+        <div class="icons">
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-tiktok"></i>
+          <i class="bx bxl-youtube"></i>
+        </div>
+        <a href="images/CV.pdf" download class="btn">Télécharge mon CV</a>
+      </div>
+      <img src="images/bg.png" class="header-img" alt="" />
+    </div>
+
+    <!------------ section-apropos --------->
+    <section class="about" id="about">
+      <div class="about-img"><img src="images/apropos.png" alt="" /></div>
+      <div class="about-text">
+        <h2 class="title">A propos de <span>moi</span></h2>
+        <h1>Développeur frontend !</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
+          cum sint reprehenderit, animi ad officia nesciunt ipsum earum aut
+          perspiciatis unde itaque odit vitae aspernatur dolores delectus
+          reiciendis numquam assumenda!
+        </p>
+        <a href="#services" class="btn">Voir Plus</a>
+      </div>
+    </section>
+
+    <!-- section-services -->
+    <section class="services" id="services">
+      <h2 class="title"><span>S</span>ervices</h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h2>Développement web</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            ducimus.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h2>Conception graphique</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            eum.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h2>Marketing Numérique</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ad!
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="title"><span>P</span>rojets</h2>
+      <div class="row">
+        <div class="portfolio-box">
+          <img src="images/P-1.jpg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P-2.jpg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P-3.jpg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P-4.jpg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P-5.jpg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P-6.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section-contact -->
+    <section class="contact" id="contact">
+      <h2 class="title"><span>C</span>ontact</h2>
+      <form action="">
+        <div class="contact-input">
+          <input type="text" placeholder="Entrer Votre Nom" />
+          <input type="text" placeholder="Entrer Votre Email" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Entre votre texte"
+        ></textarea>
+        <a class="btn">Envoyer</a>
+      </form>
+    </section>
+
+    <!------- copyright ------->
+    <section class="copyright">
+      <p>Copyright &copy; 2024 by Niang Codeur.</p>
+      <a href="#home" class="btn">Retour à l'Acceuil</a>
+    </section>
+
+    <!-- scroll reval -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
